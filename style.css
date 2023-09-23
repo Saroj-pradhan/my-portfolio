@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+
+}
+/*nav section */
+.nav{
+height: 60px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0vh 2vw;
+
+}
+.nav h4{
+    font-size: 1.7rem;
+    
+}
+.nav img{
+    height: 40px;
+    border-radius: 50%;
+
+}
+.nav-left{
+    display: flex;
+   align-items: center;
+   gap: 1vw;
+   font-size: 20px;
+}
+.nav-right{
+    
+    display: flex;
+    gap: 3vw;
+}
+.nav-right i{
+    font-size: 4vh;
+    display: none;
+}
+
+/*home  section */
+.home{
+    height: calc(100% - 60px);
+    display: flex;
+    position: absolute;
+    
+}
+.left-home{
+width: 45%;
+ 
+
+
+}
+.right-home{
+    
+    width: 55%;
+   
+   
+}
+.right-home img{
+    width: 22rem;
+    height: 22rem;
+    
+    
+}

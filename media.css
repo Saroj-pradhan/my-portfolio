@@ -1,0 +1,13 @@
+@media (max-width:480px) {
+    /* nav section */
+    body{
+        
+    }
+    .nav-right h4{
+        display: none;
+    }
+    .nav-right i{
+     
+        display: block;
+    }
+}
