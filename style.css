@@ -5,12 +5,12 @@
 }
 body{
     
-    color: white;  
+    color: white;
 }
 /*nav section */
 .nav{
 height: 70px;
-background-color: black;
+background-color: rgb(17, 16, 16);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -36,6 +36,9 @@ padding: 0vh 4vw;
     
     display: flex;
     gap: 3vw;
+}
+.nav-right h4:hover{
+    color: rgb(18, 237, 14);
 }
 .nav-right i{
     font-size: 4vh;
