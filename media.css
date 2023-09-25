@@ -3,6 +3,17 @@
     body{
         
     }
+    .home{
+        height: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .left-home{
+        width: 100%;
+        height: calc(100% - 60px);
+        
+    }
     .nav-right h4{
         display: none;
     }

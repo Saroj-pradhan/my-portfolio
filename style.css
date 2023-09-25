@@ -47,22 +47,41 @@ padding: 0vh 2vw;
     display: flex;
     position: absolute;
     
+    background-color: rgb(27, 26, 26);
+    color: white;
 }
 .left-home{
-width: 45%;
- 
+   background-color: aqua;
+    text-transform: capitalize ;
+    font-size: larger;  
+     
+    padding: 10% 8vw;
+ width:56% ;
 
 
 }
-.right-home{
+span{
+    color: rgb(13, 225, 62);
+}
+.social-icon{
+    padding:1rem 0rem;
     
-    width: 55%;
-   
+}
+.social-icon i{
+    margin-right: 1rem;
+}
+.right-home{
+ background-color: brown;
+    width: 50%;
+     
+    padding: 17vh 7vw;
    
 }
 .right-home img{
     width: 22rem;
     height: 22rem;
-    
+    border-radius: 50%;
+    border:3px solid rgb(36, 235, 10);
     
 }
+
