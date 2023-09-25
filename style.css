@@ -9,12 +9,12 @@ body{
 }
 /*nav section */
 .nav{
-height: 60px;
+height: 70px;
 background-color: black;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0vh 2vw;
+padding: 0vh 4vw;
 
 }
 .nav h4{
@@ -40,11 +40,12 @@ padding: 0vh 2vw;
 .nav-right i{
     font-size: 4vh;
     display: none;
+    
 }
 
 /*home  section */
 .home{
-    height: calc(100% - 60px);
+    height: calc(100% - 70px);
     display: flex;
     position: absolute;
     
