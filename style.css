@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    
+   
     color: white;
 }
 /*nav section */
 .nav{
-height: 70px;
+    color: white;
+
 background-color: rgb(17, 16, 16);
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0vh 4vw;
+padding: 2vh 4vw;
 
 }
 .nav h4{
@@ -48,10 +49,10 @@ padding: 0vh 4vw;
 
 /*home  section */
 .home{
-    height: calc(100% - 70px);
-    display: flex;
-    position: absolute;
     
+    display: flex;
+   
+ 
     background-color: rgb(31, 28, 28);
     color: white;
     font-family: 'Outfit', sans-serif;
@@ -64,7 +65,7 @@ padding: 0vh 4vw;
       
     padding: 0.4rem;
      
-    padding: 8% 9% ;
+    padding: 100px 9% ;
  width:56% ;
 
 
@@ -83,7 +84,7 @@ span{
 
     width: 50%;
      
-    padding: 17vh 7vw;
+    padding: 100px 7vw;
    
 }
 .right-home img{
@@ -93,4 +94,29 @@ span{
     border:3px solid rgb(36, 235, 10);
     
 }
-
+/*project section*/
+.project{
+ background-color: rgb(28, 27, 27);
+    gap: 5rem;
+    padding: 5vh 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  
+   
+   
+   
+   
+}
+.project-list{
+    width:300px ;
+    height: 450px;
+    background-color: cyan;
+   
+}
+.project img{
+    height: 150px;
+    width:  300px;
+}
+.project p{
+    color: chartreuse;
+}
