@@ -10,12 +10,13 @@ body{
 /*nav section */
 .nav{
     color: white;
-
+height: 70px;
 background-color: rgb(17, 16, 16);
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 2vh 4vw;
+
 
 }
 .nav h4{
@@ -40,6 +41,7 @@ padding: 2vh 4vw;
 }
 .nav-right h4:hover{
     color: rgb(18, 237, 14);
+    box-shadow: 3px 3px  rgb(101, 230, 107);
 }
 .nav-right i{
     font-size: 4vh;
@@ -52,8 +54,10 @@ padding: 2vh 4vw;
     
     display: flex;
    
- 
-    background-color: rgb(31, 28, 28);
+  padding-top: 10px;
+  padding-bottom: 15px;
+   background-color: rgb(31, 28, 28);
+  /* background-color: black; */
     color: white;
     font-family: 'Outfit', sans-serif;
     font-family: 'Poppins', sans-serif; 
@@ -92,13 +96,18 @@ span{
     height: 22rem;
     border-radius: 50%;
     border:3px solid rgb(36, 235, 10);
+    /* box-shadow: 20px 20px 100px rgb(101, 230, 107); */
     
+}
+.right-home img:hover{
+    box-shadow: 20px 20px 240px rgb(101, 230, 107); 
 }
 /*project section*/
 .project{
- background-color: rgb(28, 27, 27);
+ /* background-color: black; */
+ background-color: rgb(31, 28, 28);
     gap: 5rem;
-    padding: 5vh 7vw;
+    padding: 5vh 5vw;
   display: flex;
   flex-wrap: wrap;
   
@@ -108,15 +117,33 @@ span{
    
 }
 .project-list{
-    width:300px ;
-    height: 450px;
-    background-color: cyan;
-   
+    width:350px ;
+    height: 300px;
+    
+    /* border: 3px solid rgb(3, 237, 69) ; */
+    box-shadow: 10px 10px  rgb(101, 230, 107);
+}
+.project-list a{
+    text-decoration: none;
 }
 .project img{
     height: 150px;
-    width:  300px;
+    width:  340px;
+    opacity: .5s;
+    transition: .5s;
 }
-.project p{
-    color: chartreuse;
+.project-list:hover{
+    box-shadow: 20px 20px 240px rgb(101, 230, 107); 
 }
+.project h1 {
+    color: white;
+    padding-top: 18px;
+    
+
+}
+.shreyian , .anuj , .card{
+background-color:rgba(0, 0, 0, 0.342);
+}
+
+/*about*/
+
