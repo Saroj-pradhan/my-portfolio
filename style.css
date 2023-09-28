@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-   
+    background-color: rgb(31, 28, 28);
     color: white;
 }
 /*nav section */
@@ -107,7 +107,8 @@ span{
  /* background-color: black; */
  background-color: rgb(31, 28, 28);
     gap: 3rem;
-    padding: 15vh 0vw  15vh 3vw;
+    padding: 15vh 0vw  5vh 3vw;
+    margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
   
@@ -146,5 +147,70 @@ span{
 background-color:rgba(0, 0, 0, 0.342);
 }
 
-/*about*/
+/*contact section*/
+.contact{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    margin: 8rem 3rem 3rem;
+}
+.text-me{
+   margin-top: 27px;
+width: 50%;
+font-size: 22px;
+font-weight: 400;
+padding: 0px 4vw;
+
+
+}
+.text-font h1 , p{
+ padding-left: 8px;   
+padding-bottom: 17px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+.text-me h1{
+margin: 36px 0px 0px 0px;
+}
+.info i{
+    margin-top: 24px;
+}
+.message{
+ width: 50%;
+ 
+ padding:0px 10vw;
+}
+
+
+.form-button button{
+    background-color: rgb(80, 227, 85);
+    padding: 1rem 1.4rem;
+    border: 3px solid rgb(56, 247, 9) ;
+    border-radius: 10px;
+}
+.form-button button:hover{
+    background-color: rgb(8, 232, 4);
+}
+
+.message form input{
+    width: 340px;
+    padding: 0.77rem 0rem;
+    padding-left: 5px;
+    border: 2px solid rgb(78, 190, 34);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: 400;
+}
+.message form textarea{
+    width: 340px;
+    height: 4rem;
+    border: 2px solid rgb(78, 190, 34);
+    border-radius: 10px;
+}
 
