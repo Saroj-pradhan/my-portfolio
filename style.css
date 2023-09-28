@@ -164,6 +164,10 @@ padding: 0px 4vw;
 
 
 }
+.send{
+    color: #26f22a ; 
+    font-size: 34px;
+}
 .text-font h1 , p{
  padding-left: 8px;   
 padding-bottom: 17px;
