@@ -46,7 +46,14 @@ padding: 2vh 4vw;
 .nav-right i{
     font-size: 4vh;
     display: none;
+  
     
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+   font-weight: 700;
 }
 
 /*home  section */
@@ -78,9 +85,7 @@ padding: 2vh 4vw;
     padding-left: 9px;
     padding-bottom: 5px;
 }
-.left-home-text{
-    
-}
+
 span{
     color: rgba(17, 236, 5, 0.915);
 }
